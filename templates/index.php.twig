@@ -1,0 +1,11 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+  {{ include ("atoms/svg.html")}}
+  {{ include('modules/header.html.twig') }}
+  {% block content %}
+    <main role="main">
+<h1>New Quiz</h1>
+    </main>
+  {% endblock %}
+{% endblock %}
